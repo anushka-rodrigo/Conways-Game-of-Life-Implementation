@@ -93,8 +93,6 @@ Both notebooks were developed and run on **Google Colab**:
 
 The CPU showed noticeable run-to-run variance (~41% spread), most plausibly from contention on Colab's shared, non-dedicated CPU infrastructure rather than the algorithm itself. The GPU was highly consistent (within a 0.01 ms band) once warmed up, reflecting isolated execution on dedicated streaming multiprocessors independent of host OS scheduling.
 
-See [`report/report.pdf`](report/report.pdf) for the full analysis, complete source listings, and discussion.
-
 ## Key techniques behind the speedup
 
 1. **Thread-per-cell parallelism** — ~1.05M independent GPU threads replace ~1.05M sequential loop iterations.
