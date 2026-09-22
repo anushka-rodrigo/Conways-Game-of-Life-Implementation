@@ -11,7 +11,7 @@ Both versions run the identical 1024×1024 simulation, for 100 generations, from
 
 **Headline result:** the CUDA implementation is **~440× faster** than the sequential CPU baseline (mean 6.41 ms vs. 2819.36 ms for a full 100-generation run), while also being far more consistent run-to-run.
 
-Full methodology, code walkthroughs, and analysis are in [`report/report.pdf`](report/report.pdf).
+Full methodology, code walkthroughs, and analysis are in [`report/CCS3032-HPC_Assignment-FC221019.pdf.pdf`](report/CCS3032-HPC_Assignment-FC221019.pdf.pdf).
 
 ## Repository structure
 
